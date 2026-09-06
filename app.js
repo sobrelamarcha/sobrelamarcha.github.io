@@ -22,7 +22,6 @@ function render(items) {
           <h3>${s.name}</h3>
           <span class="tag">${s.tag}</span>
         </div>
-        <p class="desc">${s.description}</p>
         ${
           s.video
             ? `<a class="video-link" href="${s.video}" target="_blank" rel="noopener">
@@ -30,6 +29,11 @@ function render(items) {
               Ver el vídeo
             </a>`
             : `<span class="video-pending">Vídeo todavía sin grabar</span>`
+        }
+        ${
+          s.comment
+            ? `<p class="comment"><span class="comment-label">Comentario</span>${s.comment}</p>`
+            : ""
         }
         <div class="code-row">
           <textarea id="code-${i}" readonly spellcheck="false">${s.code}</textarea>

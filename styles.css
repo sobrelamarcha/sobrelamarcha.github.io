@@ -424,6 +424,26 @@ main {
     font-style: italic;
 }
 
+.content .comment {
+    font-size: 12.5px;
+    color: var(--text-dim);
+    margin: 0;
+    padding: 8px 12px;
+    background: var(--surface-2);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 4px 4px 0;
+    line-height: 1.55;
+}
+.content .comment .comment-label {
+    display: block;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 3px;
+}
+
 .code-row {
     display: flex;
     gap: 10px;
