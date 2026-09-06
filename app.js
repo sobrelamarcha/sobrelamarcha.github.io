@@ -23,14 +23,10 @@ function render(items) {
           <h3>${s.name}</h3>
           <div class="tags">${s.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
         </div>
-        ${
-          s.video
-            ? `<a class="video-link" href="${s.video}" target="_blank" rel="noopener">
-              <svg class="icon"><use href="#icon-youtube"></use></svg>
-              Ver el vídeo
-            </a>`
-            : `<span class="video-pending">Vídeo todavía sin grabar</span>`
-        }
+        <a class="video-link" href="${s.video}" target="_blank" rel="noopener">
+          <svg class="icon"><use href="#icon-youtube"></use></svg>
+          Ver el vídeo
+        </a>
         ${
           s.comment
             ? `<p class="comment"><span class="comment-label">Comentario</span>${s.comment}</p>`
