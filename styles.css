@@ -16,6 +16,11 @@
 * {
     box-sizing: border-box;
 }
+.icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
 html,
 body {
     margin: 0;
@@ -163,6 +168,17 @@ body {
     width: 14px;
     height: 14px;
 }
+.btn-pill {
+    border-radius: 20px;
+    padding: 9px 18px;
+}
+.btn-pill svg {
+    width: 16px;
+    height: 16px;
+}
+.mt-lg {
+    margin-top: 26px;
+}
 
 /* ---------- home header ---------- */
 .home-header {
@@ -202,32 +218,6 @@ body {
     margin: 22px auto 0;
     clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
 }
-.home-header .yt-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 26px;
-    padding: 9px 18px;
-    border: 1px solid var(--gold-dim);
-    border-radius: 20px;
-    color: var(--gold);
-    font-family: "JetBrains Mono", monospace;
-    font-size: 13px;
-    text-decoration: none;
-    transition:
-        border-color 0.15s,
-        color 0.15s;
-}
-.home-header .yt-link:hover {
-    border-color: var(--gold);
-    color: #f0c46e;
-}
-.home-header .yt-link svg {
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-}
-
 /* ---------- divider & note ---------- */
 .divider {
     height: 1px;
@@ -308,15 +298,17 @@ main {
         grid-template-columns: 1fr;
     }
 }
-
-.thumb {
-    position: relative;
+.checkerboard {
     background:
         linear-gradient(45deg, #10140f 25%, transparent 25%) 0 0/16px 16px,
         linear-gradient(-45deg, #10140f 25%, transparent 25%) 0 0/16px 16px,
         linear-gradient(45deg, transparent 75%, #10140f 75%) 0 0/16px 16px,
         linear-gradient(-45deg, transparent 75%, #10140f 75%) 0 0/16px 16px,
         var(--surface-2);
+}
+
+.thumb {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -557,12 +549,6 @@ footer a:hover {
 }
 
 .hub-card-img {
-    background:
-        linear-gradient(45deg, #10140f 25%, transparent 25%) 0 0/16px 16px,
-        linear-gradient(-45deg, #10140f 25%, transparent 25%) 0 0/16px 16px,
-        linear-gradient(45deg, transparent 75%, #10140f 75%) 0 0/16px 16px,
-        linear-gradient(-45deg, transparent 75%, #10140f 75%) 0 0/16px 16px,
-        var(--surface-2);
     aspect-ratio: 16/9;
     display: flex;
     align-items: center;
