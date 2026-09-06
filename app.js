@@ -6,11 +6,11 @@ const searchEl = document.getElementById("search");
 function render(items) {
   listEl.innerHTML = "";
   emptyEl.style.display = items.length ? "none" : "block";
+  const withVideo = items.filter((s) => s.video);
   countEl.textContent =
-    items.length + (items.length === 1 ? " esquema" : " esquemas");
+    withVideo.length + (withVideo.length === 1 ? " esquema" : " esquemas");
 
-  items.forEach((s, i) => {
-    if (s.video === null) return;
+  withVideo.forEach((s, i) => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
