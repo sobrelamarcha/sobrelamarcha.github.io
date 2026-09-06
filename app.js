@@ -20,7 +20,7 @@ function render(items) {
       <div class="content">
         <div class="head">
           <h3>${s.name}</h3>
-          <span class="tag">${s.tag}</span>
+          <div class="tags">${s.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
         </div>
         ${
           s.video
