@@ -10,6 +10,7 @@ function render(items) {
     items.length + (items.length === 1 ? " esquema" : " esquemas");
 
   items.forEach((s, i) => {
+    if (s.video === null) return;
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
