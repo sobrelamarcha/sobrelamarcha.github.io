@@ -3,17 +3,21 @@ const emptyEl = document.getElementById("empty");
 const countEl = document.getElementById("count");
 const searchEl = document.getElementById("search");
 
-function render(items) {
-  listEl.innerHTML = "";
+function setEmptyState(items) {
   emptyEl.style.display = items.length ? "none" : "block";
+}
+
+function filterAndCountVideoItems(items) {
   const withVideo = items.filter((s) => s.video);
   countEl.textContent =
     withVideo.length + (withVideo.length === 1 ? " esquema" : " esquemas");
+  return withVideo;
+}
 
-  withVideo.forEach((s, i) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
+function renderCard(s, i) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
       <div class="thumb checkerboard">
         <span class="br1"></span><span class="br2"></span>
         <img src="${s.image}" alt="Vista previa del esquema: ${s.name}" loading="lazy">
@@ -32,6 +36,7 @@ function render(items) {
             ? `<p class="comment"><span class="comment-label">Comentario</span>${s.comment}</p>`
             : ""
         }
+
         <div class="code-row">
           <textarea id="code-${i}" readonly spellcheck="false">${s.code}</textarea>
           <button class="copy-btn" data-target="code-${i}">
@@ -41,9 +46,10 @@ function render(items) {
         </div>
       </div>
     `;
-    listEl.appendChild(card);
-  });
+  listEl.appendChild(card);
+}
 
+function attachCopyButtonListeners() {
   document.querySelectorAll(".copy-btn").forEach((btn) => {
     btn.addEventListener("click", async () => {
       const ta = document.getElementById(btn.dataset.target);
@@ -63,6 +69,18 @@ function render(items) {
       }, 1500);
     });
   });
+}
+
+function render(items) {
+  listEl.innerHTML = "";
+  setEmptyState(items);
+  const withVideo = filterAndCountVideoItems(items);
+
+  withVideo.forEach((s, i) => {
+    renderCard(s, i);
+  });
+
+  attachCopyButtonListeners();
 }
 
 searchEl.addEventListener("input", () => {
