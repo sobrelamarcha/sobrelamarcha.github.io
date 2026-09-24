@@ -13,7 +13,7 @@ const schematics = [
     name: "#7 · Generador de silicio",
     tags: ["Silicio", "v151.1"],
     image: "img/7_silicio.png",
-    video: null,
+    video: "https://youtu.be/BGfMLKMZrLM",
     code: "bXNjaAF4nE1NW07DMBCcJG7ipkgVbW8BQXzAT+7ACRAfbmIhS4kd2W4Rqnrzglk7VLCr1T5mdgYcNQPTYpSonBpUpwzqzmgvtX8RE7anx/bkhO7bp/vOiKF9Pp+x6qXrrJq8MhpAOYi9HBzy1zeOdVIxunGjHLy0WCkvx8aZg+0k1nur+nfZEOEoP41F6YyNrFuvvNDqMP5By/R4NKpHPZkPaRtteombef4VBHZUyJFiAWSUsS/oRnM1AyjSyqoQwo7qgVbKK8oSXoDHxpDFRgKRU145WXqposKW6o54OTiyaLSMcJF8WRL65zt7p2uy3yT7eCV2SXzGi3AJ3+Eya6CiZDwLXzT/AOpiWl0=",
   },
 ];
