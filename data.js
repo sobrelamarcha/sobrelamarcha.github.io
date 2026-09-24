@@ -5,8 +5,7 @@ const schematics = [
     comment:
       "⚠️Este esquema lo estuve probando y me dejó de funcionar durante una partida porque se atascó.",
     image: "img/6_grafito.png",
-    video:
-      "https://www.youtube.com/watch?v=WuTSjAwFR94&list=PLnLiPv-CvFITaGWamanoA4eZjylTkHsce&index=6",
+    video: "https://youtu.be/WuTSjAwFR94",
     code: "bXNjaAF4nEWO3UrEMBCFT9OfbLe6iyD4AN5aEMSbvoNPIF5k29kaaJOSpCuy7LOv00YxMHw583NmkOM2Q2bUSJC9U0cdLLatNYFMeFMTHs7PzZkL06cO1Lw8tVYNzevlgqoj3zo9BW0NgGJQBxo8xPuHxO5voJ4ceY+Kv2Pt7exawv7gdNdTzUtO9G0ddrPpyB0H+1X3KhDugg7K6Hn8bym8dYEcytXoZHXHK+85kGJ9eYSMKIEEYs3mTIHkt7AKgVRer9eO45HnBTJsMkaOZFFFVDKqDbCoEsnitGXHVCyJCknBuIm3pBF5hIzgK34A5X1EGw==",
   },
   {
