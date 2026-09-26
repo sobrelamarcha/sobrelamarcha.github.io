@@ -12,7 +12,7 @@ const schematics = [
     name: "#vid1-2 · Energía con quemadores",
     tags: ["Early", "Energía", "v151.1"],
     comment:
-      "Generando energía de forma simple para las primeras partidas del modo campaña",
+      "Generando energía de forma simple para las primeras partidas del modo campaña.",
     image: "img/1-2_energia.png",
     video: "https://youtu.be/RHHRqLTn9Wk?si=ofT2nuT4EC42R9X1&t=280",
     code: "bXNjaAF4nDWMXQrCMBCEp/+1PijiAXqBHsUTiA/bdNFAmpY0FYp4dzcNZpn9MsvuoESTI7c0Mk5Mzmxt17Jl99SERk3Ws/U3mpF+vjgOvCinZ68nC6A01LNZkN4fBaqevGe34aqmsV+XsNM9QxL5ycmpXrzT/RpMLblv3uR3Hlm9yGpFphucNkZiL4gviUoRlEQvLRQyGYkyhEpzaTkQUEbU2Ef7SvGH+IAiooyoIuqIA7IfnRgu9g==",
@@ -21,7 +21,7 @@ const schematics = [
     name: "#vid1-3 · Grafito",
     tags: ["Early", "Material", "v151.1"],
     comment:
-      "Generando grafito con dos prensas sencillas para las primeras partidas del modo campaña",
+      "Generando grafito con dos prensas sencillas para las primeras partidas del modo campaña.",
     image: "img/1-3_grafito.png",
     video: "https://youtu.be/RHHRqLTn9Wk?si=Lgi7AGMJxzhvV_iV&t=328",
     code: "bXNjaAF4nCVMWw7CIBAcgVZtE/XLby/Qo3gC4we2q5JQ2gCaGOPdXbok7OzsPNCiNjDBjoQ92eg/p+70iPbu8oSmn0KmkM92hvr+0A6U+ujm7KYAoPb2Rj5BXa4GG/a+6TNFHEbqnza43vpuiM57zrmUo7u9Mss7bp+fLlM3R0qJe478oYAVg8byqjJW5VigEoOSkxa2HLVYdGEKZqlg0MVkloVHVaAWrS4BjbWk1hLfirYV1ghrCvsDwF4pXA==",
@@ -38,6 +38,8 @@ const schematics = [
   {
     name: "#vid7 · Generador de silicio",
     tags: ["Mid", "Material", "v151.1"],
+    comment:
+      "Un generador de silicio que utiliza puentes para introducir el material y sacar el silicio resultante.",
     image: "img/7_silicio.png",
     video: "https://youtu.be/BGfMLKMZrLM",
     code: "bXNjaAF4nE1NW07DMBCcJG7ipkgVbW8BQXzAT+7ACRAfbmIhS4kd2W4Rqnrzglk7VLCr1T5mdgYcNQPTYpSonBpUpwzqzmgvtX8RE7anx/bkhO7bp/vOiKF9Pp+x6qXrrJq8MhpAOYi9HBzy1zeOdVIxunGjHLy0WCkvx8aZg+0k1nur+nfZEOEoP41F6YyNrFuvvNDqMP5By/R4NKpHPZkPaRtteombef4VBHZUyJFiAWSUsS/oRnM1AyjSyqoQwo7qgVbKK8oSXoDHxpDFRgKRU145WXqposKW6o54OTiyaLSMcJF8WRL65zt7p2uy3yT7eCV2SXzGi3AJ3+Eya6CiZDwLXzT/AOpiWl0=",
