@@ -1,6 +1,6 @@
 # AGENTS.md — Sobre La Marcha
 
-## Estado actual del sitio (2026-08-31)
+## Estado actual del sitio (2026-10-25)
 
 ### Archivos
 
@@ -8,8 +8,8 @@
 - `mindustry.html` — Página de esquemáticos de Mindustry (buscador, tarjetas, copiado)
 - `styles.css` — Estilos compartidos (~310 líneas)
 - `app.js` — Renderizado y lógica de búsqueda/copiado
-- `data.js` — Array de esquemáticos (2 entradas actualmente)
-- `img/` — Screenshots: `6_grafito.png`, `7_silicio.png`, `mindustry.png`, `mineclonia.png`, `openttd.png`
+- `data.js` — Array de esquemáticos (9 entradas actualmente)
+- `img/` — Screenshots: `1-1_duos.webp`, `1-2_energia.webp`, `1-3_grafito.webp`, `2-1_grafito.webp`, `2-2_scatters.webp`, `2-3_silicio.webp`, `2-4_duos.webp`, `6_grafito.webp`, `7_silicio.webp`, `sections/mindustry.webp`, `sections/mineclonia.webp`, `sections/openttd.webp`
 
 ### Estructura
 

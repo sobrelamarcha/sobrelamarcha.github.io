@@ -9,7 +9,7 @@
 - [x] 2.2 Añadir las 3 cards de sección en el main: Mineclonia, OpenTTD, Mindustry
 - [x] 2.3 Configurar card de Mindustry como activa con enlace a `mindustry.html`
 - [x] 2.4 Configurar cards de Mineclonia y OpenTTD como deshabilitadas (clase `.coming-soon`)
-- [x] 2.5 Añadir imágenes de referencia: `img/mindustry.png`, `img/mineclonia.png`, `img/openttd.png`
+- [x] 2.5 Añadir imágenes de referencia: `img/mindustry.webp`, `img/mineclonia.webp`, `img/openttd.webp`
 
 ## 3. Estilos CSS para el hub
 

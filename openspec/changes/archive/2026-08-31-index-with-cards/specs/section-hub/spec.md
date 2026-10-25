@@ -12,7 +12,7 @@ Cada card de sección SHALL mostrar una imagen representativa, una descripción 
 
 #### Scenario: Estructura de cada card
 - **WHEN** se renderiza una card de sección
-- **THEN** la card contiene: imagen (`img/{seccion}.png`), nombre de la sección, descripción breve y un botón de acción
+- **THEN** la card contiene: imagen (`img/{seccion}.webp`), nombre de la sección, descripción breve y un botón de acción
 
 #### Scenario: Layout de las cards
 - **WHEN** la página carga con 3 secciones definidas

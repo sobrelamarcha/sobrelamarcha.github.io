@@ -8,7 +8,7 @@ El sitio actual usa `index.html` como la sección de Mindustry directamente. A m
 - Crear nuevo `index.html` como página de índice con 3 cards de sección (Mineclonia, OpenTTD, Mindustry)
 - Las cards de Mineclonia y OpenTTD estarán deshabilitadas ("Próximamente") hasta que esas secciones existan
 - Compartir header y footer entre el hub y mindustry.html
-- Referenciar imágenes placeholders (`img/mindustry.png`, `img/mineclonia.png`, `img/openttd.png`) que el usuario creará manualmente
+- Referenciar imágenes placeholders (`img/mindustry.webp`, `img/mineclonia.webp`, `img/openttd.webp`) que el usuario creará manualmente
 - `app.js` y `data.js` siguen funcionando sin cambios en `mindustry.html`
 
 ## Capabilities

@@ -68,7 +68,7 @@ El sitio "Sobre La Marcha" es un catálogo estático de esquemáticos de Mindust
 
 ### Decision 5: Imágenes placeholder referenciadas
 
-**Elección:** Referenciar `img/mindustry.png`, `img/mineclonia.png`, `img/openttd.png` como `src` de las cards. El usuario las creará manualmente.
+**Elección:** Referenciar `img/mindustry.webp`, `img/mineclonia.webp`, `img/openttd.webp` como `src` de las cards. El usuario las creará manualmente.
 
 **Razón:** Evita tener que crear imágenes temporales. El checkerboard pattern de `.thumb` ya sirve como fallback visual si la imagen no carga.
 
