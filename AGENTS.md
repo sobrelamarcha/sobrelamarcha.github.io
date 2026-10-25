@@ -4,7 +4,7 @@
 
 ### Archivos
 
-- `index.html` — Hub de navegación con 3 cards de sección (Mineclonia, OpenTTD, Mindustry)
+- `index.html` — Hub de navegación con 3 cards de sección (Mineclonia, OpenTTD, Mindustry) y sección de Novedades (changelog)
 - `mindustry.html` — Página de esquemáticos de Mindustry (buscador, tarjetas, copiado)
 - `styles.css` — Estilos compartidos (~310 líneas)
 - `app.js` — Renderizado y lógica de búsqueda/copiado

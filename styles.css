@@ -615,6 +615,69 @@ footer a:hover {
     }
 }
 
+/* ---------- changelog ---------- */
+.changelog {
+    max-width: 980px;
+    margin: 36px auto 0;
+    padding: 0 24px;
+}
+.changelog-title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    color: var(--cyan);
+    text-transform: uppercase;
+    margin: 0 0 14px;
+}
+.changelog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.changelog-entry {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 16px 20px;
+}
+.changelog-entry time {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    color: var(--gold);
+    white-space: nowrap;
+    padding-top: 2px;
+}
+.changelog-body h3 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    color: #f3efe2;
+}
+.changelog-body p {
+    font-size: 13.5px;
+    color: var(--text-dim);
+    margin: 0;
+}
+@media (max-width: 640px) {
+    .changelog {
+        margin-top: 28px;
+        padding: 0 20px;
+    }
+    .changelog-entry {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+}
+
 /* ---------- responsive ---------- */
 @media (max-width: 640px) {
     .sitebar {
